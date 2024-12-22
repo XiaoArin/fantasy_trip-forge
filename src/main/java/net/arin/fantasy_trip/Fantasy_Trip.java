@@ -15,12 +15,9 @@ import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Fantasy_Trip.MOD_ID)
-public class Fantasy_Trip
-{
-    // Define mod id in a common place for everything to reference
+public class Fantasy_Trip {
     public static final String MOD_ID = "fantasy_trip";
-    // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public Fantasy_Trip() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
