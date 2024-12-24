@@ -19,6 +19,7 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         //自定义标签页物品添加
                         output.accept(ModItems.DREAMY_MEOW.get());
+
                     })
                     .build());
 
